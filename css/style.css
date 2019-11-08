@@ -1,6 +1,7 @@
-*, 
+*,
 body {
 	background-color: #dddddd;
+	background-image: linear-gradient(to top darkgrey, lightgrey);
 	margin: 0;
 	padding: 0;
 }
