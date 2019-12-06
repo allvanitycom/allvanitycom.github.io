@@ -2,22 +2,14 @@
 body {
 	margin: 0;
 	padding: 0;
-
-	background-color: #555555;
 }
 
 .layout {
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	    -ms-flex-direction: column;
-	        flex-direction: column;
 	width: 100%;
 	margin: 0 auto;
 	padding: 0;
-  background-color: #ffffff;
+  	background-color: #ffffff;
 }
 
 .main-header-nav {
@@ -25,12 +17,12 @@ body {
 }
 
 .main-header-logo {
+	padding-top: 10px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 
 	width: 100%;
-	background-color: #ffffff;
 }
 
 .main-header-logo svg {
@@ -48,7 +40,7 @@ body {
 }
 
 .menu-item {
-	padding: 20px;
+	padding: 0;
 	background-color: #ffffff;
 }
 
@@ -62,6 +54,7 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	background-color: #ffffff;
 }
 
 footer {
